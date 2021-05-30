@@ -1,6 +1,6 @@
 {
   "name": "vue3-server-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Server plugin for server bundle creation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

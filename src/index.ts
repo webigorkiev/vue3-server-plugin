@@ -3,7 +3,7 @@ import type * as webpack from "webpack";
 const isJS = (file: string): boolean => /\.js(\?[^.]+)?$/.test(file);
 const isMap = (file: string): boolean => /\.js\.map$/.test(file);
 
-export default class {
+export default class VueSSRServerPlugin {
     options: Record<string, any>;
 
     constructor (options = {}) {
@@ -102,4 +102,6 @@ export default class {
             });
         });
     }
-}
+};
+
+module.exports = VueSSRServerPlugin;
