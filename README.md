@@ -3,6 +3,12 @@
   <b >The server config is meant for generating the server bundle that will be passed to createBundleRenderer</b>
 </p>
 
+## Installation
+
+```bash
+npm i --save-dev vue3-server-plugin
+```
+
 ## Features
 
 * webpack 5
